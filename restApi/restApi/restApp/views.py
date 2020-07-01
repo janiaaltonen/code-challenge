@@ -16,6 +16,9 @@ class MovieView(APIView):
         for key, value in input_params.validated_data.items():
             self.api_url += "&" + key + "=" + str(value)
         response_data = requests.get(self.api_url).json()
+        if len(response_data) <= 2:
+            value = 'Movie not found with title ' + input_params.validated_data['t']
+            response_data = {'Result': value}
         return Response(data=response_data)
 
 
@@ -33,4 +36,6 @@ class BookView(APIView):
                 self.api_url += key + "=ISBN:" + value
         self.api_url += "&format=json&jscmd=data"
         response_data = requests.get(self.api_url).json()
+        if len(response_data) < 1:
+            response_data = {'Result:': 'Book not found with ISBN ' + input_params.validated_data['bibkeys']}
         return Response(data=response_data)
