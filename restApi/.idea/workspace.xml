@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64a8a273-29b9-4da1-9586-302ea5686c72" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restApi/restApp/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/restApi/restApp/api/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restApi/restApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/restApi/restApp/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="64a8a273-29b9-4da1-9586-302ea5686c72" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +73,7 @@
       <workItem from="1593428238235" duration="2437000" />
       <workItem from="1593498187231" duration="4954000" />
       <workItem from="1593536810909" duration="1910000" />
-      <workItem from="1593585627056" duration="5106000" />
+      <workItem from="1593585627056" duration="5571000" />
     </task>
     <servers />
   </component>
