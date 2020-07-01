@@ -4,10 +4,9 @@ $content = "<div id='container'></div>";
 include('../base.php');
 ?>
 
-/*
-* ugly way to get JWT from server and store it in webstorage. Security issue etc. but now no time to get it work better
-*
-*/
+
+<!-- ugly way to get JWT from server and store it in webstorage. Security issue etc. but now no time to get it work better -->
+
 <script>
     $(document).ready(function() {
         if (localStorage.getItem("access") === null && localStorage.getItem("refresh") === null) {

@@ -5,7 +5,7 @@ class Book{
 
     public function __construct($obj){
         foreach ($obj as $key=> $value){
-            if($key){ $this->data .= $key. "\n";}
+            if($key){ $this->data .= $key;}
             if(is_object($value)){
                 foreach ($value as $sKey => $sValue){
                     if($sKey){ $this->data .= "\n". $sKey. ": ";}
@@ -42,6 +42,8 @@ class Book{
                     }
                     $this->data .= "\n";
                 }
+            } else {
+                $this->data .= " ". $value. "\n";
             }
         }
     }
