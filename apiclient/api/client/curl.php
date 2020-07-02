@@ -13,7 +13,7 @@ class Curl{
         curl_setopt_array($this->curl, [
             CURLOPT_RETURNTRANSFER => 1,
             CURLOPT_URL => $this->address. $endpoint,
-            CURLOPT_HTTPHEADER => array('Authorization: Bearer '. $token)
+            CURLOPT_HTTPHEADER => array('Authorization: '. $token)
         ]);
         return curl_exec($this->curl);
     }

@@ -13,7 +13,8 @@ include('../base.php');
 
 <!-- ugly way to get JWT from server and store it in webStorage/localStorage.
 Security issue etc. but now no time to get it work more suitable and secure way.
-Django rest-framework's simple-jwt support for httponly cookie not found out..-->
+Django rest-framework's simple-jwt not currently support for httponly cookie.
+Have to write custom things for that, now not enough time to do that. -->
 
 <script>
     $(document).ready(function() {

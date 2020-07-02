@@ -10,8 +10,9 @@ $query = '';
 $content = '';
 
 $token = '';
+
 foreach (getallheaders() as $name => $value) {
-    if($name == 'deflate Authorization'){
+    if($name == "Authorization"){
         $token = $value;
     }
 }
