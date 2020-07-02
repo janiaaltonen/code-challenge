@@ -14,8 +14,4 @@
 ## API Client 
 * created with PHP 
 * used XAMPP to develop the client
-* includes couple of JS functions 
-<<<<<<< HEAD
-
-=======
->>>>>>> 0f3ab7cfcfff760eafd79eb85baa3b72bfd27639
+* includes couple of JS functions
